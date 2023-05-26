@@ -27,54 +27,53 @@ logo = (""""\033[132m
 ║╔═╗╠╣╚╝║╔╗║╔╗╣══╣╔╗║║║║
 ║║─║║║║║║╔╗║║║╠══║║║║╚╝║
 ╚╝─╚╩╩╩╩╩╝╚╩╝╚╩══╩╝╚╩══╝\033[1;37m\n""")
-o()
-def ud():
 
-    os.system('clear')
 
-    jalan(logo)
 
-    print(' \033[1;32m[1] SUBSCRIBE MY CHANNEL')
+    
 
-    print(' [2] EXIT')
+    
 
-    opt = input('\n   CHOOSE OPTION >>>\033[1;37m ')
+    
 
-    if opt == '1':
+    
 
-        os.system('clear')
+    
 
-        FD()
+    
 
-        return None
+       
+
+       
+
+      
      
-    None('\n\x1b[1;31mEXIT\x1b[0;97m')
 
 
 
 
 
-def FD():
 
-    os.system('clear')
 
-    print(logo)
 
-    print('\x1b[1;33m [1] FOLLOW THIS MY FACEBOOK PAGE')
+  
 
-    print(' [2] EXIT')
 
-    opt = input('\n  \x1b[1;32m CHOOSE OPTION >>> ')
+ 
 
-    if opt == '1':
+ 
 
-        os.system('clear')
+    
 
-        o()
 
-        return None
 
-    None('\n\x1b[1;31mEXIT\x1b[0;97m')
+     
+
+       
+
+
+
+
 
 
 
