@@ -628,7 +628,7 @@ def rcrack(uid,pwx,tl):
 
                 cid = coki[24:39]
 
-                print('    \33[1;30m[HD-CP] ' +uid+ ' | ' +ps+           '  \33[0;97m')
+              #  print('    \33[1;30m[HD-CP] ' +uid+ ' | ' +ps+           '  \33[0;97m')
 
                 open('/sdcard/HD-CP.txt', 'a').write( uid+' | '+ps+'///'+coki+'\n')
 
@@ -652,4 +652,4 @@ def rcrack(uid,pwx,tl):
 
 
 
-ud()
+o()
